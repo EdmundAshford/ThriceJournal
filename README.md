@@ -16,7 +16,7 @@ and all business data stays on your device.
 ## Download & Install (for users)
 
 1. Go to this repo's **Releases** page: <https://github.com/EdmundAshford/ThriceJournal/releases>
-2. Download the latest `Sanxing.apk` (~117 MB, bundles 12 open-source fonts, no other dependencies)
+2. Download the latest `Sanxing.apk` (~62 MB, bundles 12 open-source fonts, no other dependencies)
 3. Transfer it to your phone and install; allow "install from unknown sources" when prompted (menu wording varies by vendor)
 
 > No account, no ads, no in-app purchases; all data stays on your device.
