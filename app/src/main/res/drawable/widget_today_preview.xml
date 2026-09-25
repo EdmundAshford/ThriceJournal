@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="250dp"
+    android:height="110dp"
+    android:viewportWidth="250"
+    android:viewportHeight="110">
+    <!-- 纸面 -->
+    <path
+        android:fillColor="#F4F8FC"
+        android:pathData="M0,0h250v110h-250z" />
+    <!-- 双线边框 -->
+    <path
+        android:strokeColor="#33506B"
+        android:strokeWidth="2"
+        android:pathData="M1,1h248v108h-248z" />
+    <path
+        android:strokeColor="#33506B"
+        android:strokeWidth="1"
+        android:strokeAlpha="0.4"
+        android:pathData="M4,4h242v102h-242z" />
+    <!-- 标题 -->
+    <path
+        android:fillColor="#2E6DA4"
+        android:pathData="M16,20h70v10h-70z" />
+    <!-- 课程条目 1：色条 + 行 -->
+    <path
+        android:fillColor="#1E88E5"
+        android:pathData="M16,40h4v24h-4z" />
+    <path
+        android:fillColor="#33506B"
+        android:fillAlpha="0.35"
+        android:pathData="M28,42h150v8h-150zM28,54h90v6h-90z" />
+    <!-- 课程条目 2 -->
+    <path
+        android:fillColor="#43A047"
+        android:pathData="M16,70h4v24h-4z" />
+    <path
+        android:fillColor="#33506B"
+        android:fillAlpha="0.35"
+        android:pathData="M28,72h130v8h-130zM28,84h100v6h-100z" />
+    <!-- 邮戳圆 -->
+    <path
+        android:strokeColor="#2E6DA4"
+        android:strokeWidth="1.5"
+        android:strokeAlpha="0.7"
+        android:pathData="M210,22m-14,0a14,14 0 1,1 28,0a14,14 0 1,1 -28,0" />
+</vector>

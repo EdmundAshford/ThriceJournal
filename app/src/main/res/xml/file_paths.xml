@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 长图 / ICS / 备份 JSON 分享（cacheDir/shared/） -->
+    <cache-path
+        name="shared"
+        path="shared/" />
+    <!-- 可读格式导出（CSV / Markdown / JSON 打包 zip，cacheDir/export/） -->
+    <cache-path
+        name="export"
+        path="export/" />
+</paths>

@@ -1,0 +1,35 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Kotlin 增量编译会话（含本机绝对路径，不公开）
+.kotlin/
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+local.properties
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 日志与临时文件
+*.log
+*.apk
+*.aab
+captures/
+.externalNativeBuild/
+.cxx/
+
+# 本地运维记录（含本机绝对路径，不公开）
+.ops_log/
+
+# 签名配置：仓库内不含任何密钥库，构建产物统一使用 debug 签名
+*.jks
+*.keystore
+
+# 字体**源**文件（几百 MB，不进仓库）。由 tools/fetch_open_fonts.py 下载到此处，
+# 再经 tools/subset_fonts.py 子集化输出 app/src/main/res/font/fNN.ttf（后者**随仓库分发**）。
+Fonts/

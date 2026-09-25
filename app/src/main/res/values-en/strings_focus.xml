@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Focus / timer module -->
+    <string name="nav_focus">Focus</string>
+    <string name="focus_title">Focus</string>
+
+    <!-- Notification channel -->
+    <string name="focus_channel_name">Focus reminders</string>
+    <string name="focus_channel_desc">Countdown completion and failed session alerts</string>
+    <string name="focus_notif_finished_title">Focus complete</string>
+    <string name="focus_notif_finished_text">The sphere is full. You focused for %1$s. Well done</string>
+    <string name="focus_notif_failed_title">Focus session incomplete</string>
+    <string name="focus_notif_failed_text">You left the Focus module. This session is marked as failed</string>
+
+    <!-- Main screen -->
+    <string name="focus_mode_stopwatch">Stopwatch</string>
+    <string name="focus_mode_countdown">Countdown</string>
+    <string name="focus_start">Start</string>
+    <string name="focus_pause">Pause</string>
+    <string name="focus_resume">Resume</string>
+    <string name="focus_finish">Finish</string>
+    <string name="focus_abandon">Give up</string>
+    <string name="focus_done">Done</string>
+    <string name="focus_tag_none">Uncategorized</string>
+    <string name="focus_tag_manage">Manage tags</string>
+    <string name="focus_stats_entry">Stats</string>
+    <string name="focus_settings_entry">Settings</string>
+    <string name="focus_duration_title">Countdown duration</string>
+    <string name="focus_wheel_minute">min</string>
+    <string name="focus_wheel_hour">hr</string>
+    <string name="focus_hours_minutes">%1$d h %2$d min</string>
+    <string name="focus_minutes_only">%1$d min</string>
+    <string name="focus_duration_zero_hint">Duration must be at least 1 minute</string>
+    <string name="focus_keep_screen_on">Keep screen on while focusing</string>
+    <string name="focus_finish_notify">End-of-session notification</string>
+    <string name="focus_leave_title">When leaving Focus</string>
+    <string name="focus_leave_pause">Pause timer</string>
+    <string name="focus_leave_fail">Mark as failed</string>
+    <string name="focus_leave_keep">Keep timing</string>
+    <string name="focus_finished_badge">Focus complete</string>
+    <string name="focus_failed_badge">Focus failed</string>
+    <string name="focus_abandon_confirm">Give up this focus session? The focused time will be recorded as abandoned.</string>
+    <string name="focus_stopwatch_hint">The water rises slowly, but never stops</string>
+
+    <!-- Tag management -->
+    <string name="focus_tag_dialog_title">Focus tags</string>
+    <string name="focus_tag_name_hint">Tag name</string>
+
+    <!-- Stats -->
+    <string name="focus_stats_title">Focus stats</string>
+    <string name="focus_stats_total">Total focus</string>
+    <string name="focus_stats_sessions">Sessions</string>
+    <string name="focus_stats_daily_avg">Daily avg</string>
+    <string name="focus_stats_streak">Streak</string>
+    <string name="focus_stats_streak_days">%1$d days</string>
+    <string name="focus_chart_bar">Bar</string>
+    <string name="focus_chart_pie">Pie</string>
+    <string name="focus_period_day">Day</string>
+    <string name="focus_period_week">Week</string>
+    <string name="focus_period_month">Month</string>
+    <string name="focus_period_year">Year</string>
+    <string name="focus_filter_all">All</string>
+    <string name="focus_empty">No focus sessions yet. Start your first timer</string>
+    <string name="focus_session_delete_confirm">Delete this focus session?</string>
+    <string name="focus_status_completed">Completed</string>
+    <string name="focus_status_failed">Failed</string>
+    <string name="focus_status_abandoned">Abandoned</string>
+</resources>

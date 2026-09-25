@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Notes module -->
+    <string name="nav_notes">Notes</string>
+    <string name="notes_title">Notes</string>
+    <string name="notes_folders_cd">Folders</string>
+    <string name="notes_settings_cd">Notes settings</string>
+    <string name="notes_add_cd">New note</string>
+    <string name="notes_empty">No notes yet</string>
+    <string name="notes_untitled">Untitled</string>
+
+    <!-- Folder filtering and management -->
+    <string name="notes_filter_section">Filter</string>
+    <string name="notes_filter_all">All</string>
+    <string name="notes_uncategorized">Uncategorized</string>
+    <string name="notes_my_folders">My folders</string>
+    <string name="notes_folders_title">Folders</string>
+    <string name="notes_folder_new">New folder</string>
+    <string name="notes_folder_name_hint">Folder name</string>
+    <string name="notes_folder_rename">Rename</string>
+    <string name="notes_folder_rename_cd">Rename folder</string>
+    <string name="notes_folder_delete_cd">Delete folder</string>
+    <string name="notes_folder_delete_confirm">Delete folder \"%1$s\"? Notes inside it will be moved to Uncategorized; they won\'t be deleted.</string>
+    <string name="notes_folder_exists">A folder with this name already exists</string>
+
+    <!-- Card menu and delete confirmation -->
+    <string name="notes_pin">Pin</string>
+    <string name="notes_unpin">Unpin</string>
+    <string name="notes_pinned_cd">Pinned</string>
+    <string name="notes_move_to">Move to folder</string>
+    <string name="notes_move_dialog_title">Move to folder</string>
+    <string name="notes_delete_confirm">Delete this note? This cannot be undone.</string>
+    <string name="notes_card_menu_cd">Note actions</string>
+
+    <!-- Editor -->
+    <string name="notes_editor_back_cd">Back and save</string>
+    <string name="notes_preview_cd">Preview</string>
+    <string name="notes_edit_cd">Edit</string>
+    <string name="notes_editor_menu_cd">More actions</string>
+    <string name="notes_title_hint">Title</string>
+    <string name="notes_content_hint">Write something…</string>
+    <string name="notes_menu_font">Font</string>
+    <string name="notes_menu_font_size">Font size</string>
+    <string name="notes_menu_move">Move to folder</string>
+    <string name="notes_menu_delete">Delete</string>
+    <string name="notes_editor_delete_confirm">Delete this note? This cannot be undone.</string>
+
+    <!-- Formatting toolbar -->
+    <string name="notes_format_bold_cd">Bold</string>
+    <string name="notes_format_italic_cd">Italic</string>
+    <string name="notes_format_underline_cd">Underline</string>
+    <string name="notes_format_bullet_cd">Bulleted list</string>
+    <string name="notes_format_ordered_cd">Numbered list</string>
+    <string name="notes_format_quote_cd">Quote</string>
+
+    <!-- Per-note font and size -->
+    <string name="notes_follow_global">Follow global</string>
+    <string name="notes_font_numbered_fmt">Font %1$02d</string>
+    <string name="notes_editor_font_title">Note font</string>
+    <string name="notes_editor_size_title">Font size</string>
+    <string name="notes_size_fmt">%1$d sp</string>
+
+    <!-- Notes settings dialog -->
+    <string name="notes_settings_title">Notes settings</string>
+    <string name="notes_settings_font_size">Body font size</string>
+    <string name="notes_settings_default_font">Default font</string>
+    <string name="notes_settings_layout">Layout</string>
+    <string name="notes_layout_one">One column</string>
+    <string name="notes_layout_two">Two columns</string>
+    <string name="notes_settings_sort_field">Sort by</string>
+    <string name="notes_settings_sort_order">Order</string>
+    <string name="notes_sort_updated">Last updated</string>
+    <string name="notes_sort_created">Date created</string>
+    <string name="notes_sort_title">Title</string>
+    <string name="notes_sort_asc">Ascending</string>
+    <string name="notes_sort_desc">Descending</string>
+
+    <!-- Note tags -->
+    <string name="note_tag_filter_all">All tags</string>
+    <string name="note_tag_new_cd">New tag</string>
+    <string name="note_tag_create_title">New tag</string>
+    <string name="note_tag_name_hint">Tag name</string>
+    <string name="note_tag_rename_title">Rename tag</string>
+    <string name="note_tag_rename">Rename</string>
+    <string name="note_tag_delete_confirm">Delete tag \"%1$s\"? It will be removed from every note; the notes themselves won\'t be deleted.</string>
+    <string name="note_tag_exists">A tag with this name already exists</string>
+    <string name="note_tag_add">Add tag</string>
+    <string name="note_tag_picker_title">Tags</string>
+    <string name="note_tag_remove_cd">Remove tag</string>
+</resources>

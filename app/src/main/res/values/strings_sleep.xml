@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 睡眠模块 -->
+    <string name="nav_sleep">睡眠</string>
+    <string name="sleep_title">睡眠</string>
+
+    <!-- 通知 -->
+    <string name="sleep_channel_name">睡眠提醒</string>
+    <string name="sleep_channel_desc">入睡 / 午休时间提醒</string>
+    <string name="sleep_bed_notif_title">该准备入睡了</string>
+    <string name="sleep_bed_notif_text">放下手机，晚安好梦</string>
+    <string name="sleep_nap_notif_title">该午休了</string>
+    <string name="sleep_nap_notif_text">小憩片刻，下午更有精神</string>
+
+    <!-- 主屏 -->
+    <string name="sleep_kind_night">夜间睡眠</string>
+    <string name="sleep_kind_nap">午休</string>
+    <string name="sleep_start_night">开始入睡</string>
+    <string name="sleep_start_nap">开始午休</string>
+    <string name="sleep_wake">苏醒</string>
+    <string name="sleep_sleeping_since">入睡于 %1$s</string>
+    <string name="sleep_napping_since">午休于 %1$s</string>
+    <string name="sleep_last_night">昨夜睡眠</string>
+    <string name="sleep_last_nap">上次午休</string>
+    <string name="sleep_goal_title">睡眠目标</string>
+    <string name="sleep_recent7">近 7 日</string>
+    <string name="sleep_stats_entry">统计</string>
+    <string name="sleep_settings_entry">设置</string>
+    <string name="sleep_add_manual">补录</string>
+    <string name="sleep_nap_enabled">开启午休记录</string>
+    <string name="sleep_night_goal">夜睡目标时长</string>
+    <string name="sleep_goal_mode_duration">总时长</string>
+    <string name="sleep_goal_mode_bedwake">入睡 / 起床</string>
+    <string name="sleep_goal_equals">= %1$s</string>
+    <string name="sleep_bed_time">入睡时刻</string>
+    <string name="sleep_wake_time">起床时刻</string>
+    <string name="sleep_nap_goal">午休目标时长</string>
+    <string name="sleep_nap_goal_mode_bedwake">开始 / 结束</string>
+    <string name="sleep_nap_start_time">午休开始时刻</string>
+    <string name="sleep_nap_end_time">午休结束时刻</string>
+    <string name="sleep_nap_reminder_enabled">午休提醒</string>
+    <string name="sleep_nap_reminder_time">午休提醒时刻</string>
+    <string name="sleep_bed_reminder_enabled">入睡提醒</string>
+    <string name="sleep_summary_reached">达成目标</string>
+    <string name="sleep_summary_short">距目标还差 %1$s</string>
+    <string name="sleep_wake_before_sleep">苏醒时间不能早于入睡时间</string>
+    <string name="sleep_zero_invalid">睡眠时长需要大于 0 分钟</string>
+    <string name="sleep_ongoing_night">夜间睡眠进行中</string>
+    <string name="sleep_history_title">历史记录</string>
+    <string name="sleep_note_hint">备注（可选）</string>
+    <string name="sleep_no_records">还没有睡眠记录</string>
+
+    <!-- 补录对话框 -->
+    <string name="sleep_edit_title">睡眠记录</string>
+    <string name="sleep_field_sleep_at">入睡时间</string>
+    <string name="sleep_field_wake_at">苏醒时间</string>
+    <string name="sleep_field_minutes">时长（分钟）</string>
+    <string name="sleep_wheel_hour">时</string>
+    <string name="sleep_wheel_minute">分</string>
+    <string name="sleep_delete_confirm">删除这条睡眠记录？</string>
+
+    <!-- 统计 -->
+    <string name="sleep_stats_title">睡眠统计</string>
+    <string name="sleep_stats_avg_night">夜睡平均</string>
+    <string name="sleep_stats_avg_nap">午休平均</string>
+    <string name="sleep_stats_night_goal_rate">夜睡达成率</string>
+    <string name="sleep_stats_nap_goal_rate">午休达成率</string>
+    <string name="sleep_stats_distribution">夜睡 / 午休占比</string>
+    <string name="sleep_chart_trend">时长趋势</string>
+    <string name="sleep_period_day">日</string>
+    <string name="sleep_period_week">周</string>
+    <string name="sleep_period_month">月</string>
+    <string name="sleep_period_year">年</string>
+</resources>

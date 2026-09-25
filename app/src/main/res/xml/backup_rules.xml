@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 自动备份规则（Android 6+ Auto Backup）。
+     只备份应用自身的数据库、SharedPreferences 与 DataStore，不备份缓存。
+
+     关于数据库：Room 默认使用 WAL，而这里备份的是 sanxing.db 主库文件、
+     不包含 -wal 日志，因此「尚未 checkpoint 的最近写入」可能不在备份里。
+     这是 Android Auto Backup 备份 SQLite 的固有取舍；需要可靠、完整、
+     可校验的数据搬家，请使用应用内「备份 / 恢复」导出的 JSON（BackupManager），
+     它对所有 21 张表做显式序列化并带 schema 版本校验。 -->
+<full-backup-content>
+    <include domain="database" path="sanxing.db" />
+    <include domain="sharedpref" path="." />
+    <include domain="file" path="datastore/" />
+    <!-- AI API Key 单独存储在 ai_secrets，绝不进入云备份。
+         云端恢复后用户需重新填 Key，这是刻意的安全取舍。 -->
+    <exclude domain="file" path="datastore/ai_secrets.preferences_pb" />
+    <exclude domain="cache" path="." />
+</full-backup-content>

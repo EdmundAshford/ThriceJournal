@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- R10 图标：棕色背景上的一片白色树叶。
+     叶片竖直绘制后绕中心逆时针旋转 45°，叶尖自然指向左上角；
+     叶脉 / 叶柄使用与背景一致的棕色，形成干净的镂刻质感。 -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <group
+        android:pivotX="54"
+        android:pivotY="54"
+        android:rotation="-45">
+
+        <!-- 叶片（白色实心，叶尖在上、叶基在下） -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M54,25 C73.5,39.5 75.5,62 54,82 C32.5,62 34.5,39.5 54,25 Z" />
+
+        <!-- 叶柄 -->
+        <path
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="4.6"
+            android:strokeLineCap="round"
+            android:pathData="M54,80 L54,91" />
+
+        <!-- 主脉（棕色，与背景同色） -->
+        <path
+            android:strokeColor="#6D4C2F"
+            android:strokeWidth="2.6"
+            android:strokeLineCap="round"
+            android:pathData="M54,31 L54,78" />
+
+        <!-- 侧脉三对 -->
+        <group
+            android:strokeColor="#6D4C2F"
+            android:strokeWidth="2"
+            android:strokeLineCap="round">
+            <path android:pathData="M54,43 L43,37" />
+            <path android:pathData="M54,43 L65,37" />
+            <path android:pathData="M54,56 L41,50" />
+            <path android:pathData="M54,56 L67,50" />
+            <path android:pathData="M54,69 L43,65" />
+            <path android:pathData="M54,69 L65,65" />
+        </group>
+
+    </group>
+
+</vector>

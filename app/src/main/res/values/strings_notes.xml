@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 随身记（笔记）模块 -->
+    <string name="nav_notes">笔记</string>
+    <string name="notes_title">笔记</string>
+    <string name="notes_folders_cd">文件夹</string>
+    <string name="notes_settings_cd">笔记设置</string>
+    <string name="notes_add_cd">新建笔记</string>
+    <string name="notes_empty">没有笔记</string>
+    <string name="notes_untitled">无标题</string>
+
+    <!-- 文件夹筛选与管理 -->
+    <string name="notes_filter_section">筛选</string>
+    <string name="notes_filter_all">全部</string>
+    <string name="notes_uncategorized">未分类</string>
+    <string name="notes_my_folders">我的文件夹</string>
+    <string name="notes_folders_title">文件夹</string>
+    <string name="notes_folder_new">新建文件夹</string>
+    <string name="notes_folder_name_hint">文件夹名称</string>
+    <string name="notes_folder_rename">重命名</string>
+    <string name="notes_folder_rename_cd">重命名文件夹</string>
+    <string name="notes_folder_delete_cd">删除文件夹</string>
+    <string name="notes_folder_delete_confirm">删除文件夹「%1$s」？文件夹内笔记将移到未分类，不会被删除。</string>
+    <string name="notes_folder_exists">已存在同名文件夹</string>
+
+    <!-- 卡片菜单 / 删除确认 -->
+    <string name="notes_pin">置顶</string>
+    <string name="notes_unpin">取消置顶</string>
+    <string name="notes_pinned_cd">已置顶</string>
+    <string name="notes_move_to">移动到文件夹</string>
+    <string name="notes_move_dialog_title">移动到文件夹</string>
+    <string name="notes_delete_confirm">删除这篇笔记？删除后不可恢复。</string>
+    <string name="notes_card_menu_cd">笔记操作</string>
+
+    <!-- 编辑器 -->
+    <string name="notes_editor_back_cd">返回并保存</string>
+    <string name="notes_preview_cd">预览</string>
+    <string name="notes_edit_cd">编辑</string>
+    <string name="notes_editor_menu_cd">更多操作</string>
+    <string name="notes_title_hint">标题</string>
+    <string name="notes_content_hint">写点什么…</string>
+    <string name="notes_menu_font">选择字体</string>
+    <string name="notes_menu_font_size">字号</string>
+    <string name="notes_menu_move">移动文件夹</string>
+    <string name="notes_menu_delete">删除</string>
+    <string name="notes_editor_delete_confirm">删除这篇笔记？删除后不可恢复。</string>
+
+    <!-- 格式工具条 -->
+    <string name="notes_format_bold_cd">粗体</string>
+    <string name="notes_format_italic_cd">斜体</string>
+    <string name="notes_format_underline_cd">下划线</string>
+    <string name="notes_format_bullet_cd">无序列表</string>
+    <string name="notes_format_ordered_cd">有序列表</string>
+    <string name="notes_format_quote_cd">引用</string>
+
+    <!-- 单篇字体 / 字号 -->
+    <string name="notes_follow_global">跟随全局</string>
+    <string name="notes_font_numbered_fmt">字体 %1$02d</string>
+    <string name="notes_editor_font_title">笔记字体</string>
+    <string name="notes_editor_size_title">字号</string>
+    <string name="notes_size_fmt">%1$d sp</string>
+
+    <!-- 笔记设置弹窗 -->
+    <string name="notes_settings_title">笔记设置</string>
+    <string name="notes_settings_font_size">正文字号</string>
+    <string name="notes_settings_default_font">默认字体</string>
+    <string name="notes_settings_layout">排列布局</string>
+    <string name="notes_layout_one">单列</string>
+    <string name="notes_layout_two">双列</string>
+    <string name="notes_settings_sort_field">排序方式</string>
+    <string name="notes_settings_sort_order">排序方向</string>
+    <string name="notes_sort_updated">更新时间</string>
+    <string name="notes_sort_created">创建时间</string>
+    <string name="notes_sort_title">标题</string>
+    <string name="notes_sort_asc">升序</string>
+    <string name="notes_sort_desc">降序</string>
+
+    <!-- 笔记标签 -->
+    <string name="note_tag_filter_all">全部标签</string>
+    <string name="note_tag_new_cd">新建标签</string>
+    <string name="note_tag_create_title">新建标签</string>
+    <string name="note_tag_name_hint">标签名称</string>
+    <string name="note_tag_rename_title">重命名标签</string>
+    <string name="note_tag_rename">重命名</string>
+    <string name="note_tag_delete_confirm">删除标签「%1$s」？该标签会从所有笔记中移除，笔记本身不会被删除。</string>
+    <string name="note_tag_exists">已存在同名标签</string>
+    <string name="note_tag_add">添加标签</string>
+    <string name="note_tag_picker_title">选择标签</string>
+    <string name="note_tag_remove_cd">移除标签</string>
+</resources>

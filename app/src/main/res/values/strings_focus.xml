@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 计时（专注）模块 -->
+    <string name="nav_focus">专注</string>
+    <string name="focus_title">专注</string>
+
+    <!-- 通知渠道 -->
+    <string name="focus_channel_name">专注提醒</string>
+    <string name="focus_channel_desc">倒计时完成与专注失败提醒</string>
+    <string name="focus_notif_finished_title">专注完成</string>
+    <string name="focus_notif_finished_text">水滴已满，本次专注 %1$s，辛苦了</string>
+    <string name="focus_notif_failed_title">本次专注未完成</string>
+    <string name="focus_notif_failed_text">提前离开了专注模块，本次已记为失败</string>
+
+    <!-- 主屏 -->
+    <string name="focus_mode_stopwatch">正计时</string>
+    <string name="focus_mode_countdown">倒计时</string>
+    <string name="focus_start">开始</string>
+    <string name="focus_pause">暂停</string>
+    <string name="focus_resume">继续</string>
+    <string name="focus_finish">结束</string>
+    <string name="focus_abandon">放弃</string>
+    <string name="focus_done">完成</string>
+    <string name="focus_tag_none">未分类</string>
+    <string name="focus_tag_manage">管理标签</string>
+    <string name="focus_stats_entry">统计</string>
+    <string name="focus_settings_entry">设置</string>
+    <string name="focus_duration_title">倒计时时长</string>
+    <string name="focus_wheel_minute">分</string>
+    <string name="focus_wheel_hour">时</string>
+    <string name="focus_hours_minutes">%1$d 小时 %2$d 分</string>
+    <string name="focus_minutes_only">%1$d 分</string>
+    <string name="focus_duration_zero_hint">时长至少 1 分钟</string>
+    <string name="focus_keep_screen_on">专注时保持屏幕常亮</string>
+    <string name="focus_finish_notify">专注结束通知</string>
+    <string name="focus_leave_title">离开专注模块时</string>
+    <string name="focus_leave_pause">暂停计时</string>
+    <string name="focus_leave_fail">判定失败</string>
+    <string name="focus_leave_keep">继续计时</string>
+    <string name="focus_finished_badge">专注完成</string>
+    <string name="focus_failed_badge">专注失败</string>
+    <string name="focus_abandon_confirm">放弃本次专注？已专注的时间将记为放弃。</string>
+    <string name="focus_stopwatch_hint">水满则缓，贵在不息</string>
+
+    <!-- 标签管理 -->
+    <string name="focus_tag_dialog_title">专注标签</string>
+    <string name="focus_tag_name_hint">标签名称</string>
+
+    <!-- 统计页 -->
+    <string name="focus_stats_title">专注统计</string>
+    <string name="focus_stats_total">总专注</string>
+    <string name="focus_stats_sessions">会话数</string>
+    <string name="focus_stats_daily_avg">日均</string>
+    <string name="focus_stats_streak">连续天数</string>
+    <string name="focus_stats_streak_days">%1$d 天</string>
+    <string name="focus_chart_bar">柱状图</string>
+    <string name="focus_chart_pie">饼图</string>
+    <string name="focus_period_day">日</string>
+    <string name="focus_period_week">周</string>
+    <string name="focus_period_month">月</string>
+    <string name="focus_period_year">年</string>
+    <string name="focus_filter_all">全部</string>
+    <string name="focus_empty">还没有专注记录，开始第一次专注吧</string>
+    <string name="focus_session_delete_confirm">删除这条专注记录？</string>
+    <string name="focus_status_completed">完成</string>
+    <string name="focus_status_failed">失败</string>
+    <string name="focus_status_abandoned">放弃</string>
+</resources>

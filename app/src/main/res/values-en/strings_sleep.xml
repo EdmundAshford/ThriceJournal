@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Sleep module -->
+    <string name="nav_sleep">Sleep</string>
+    <string name="sleep_title">Sleep</string>
+
+    <!-- Notifications -->
+    <string name="sleep_channel_name">Sleep reminders</string>
+    <string name="sleep_channel_desc">Bedtime and nap reminders</string>
+    <string name="sleep_bed_notif_title">Time to wind down</string>
+    <string name="sleep_bed_notif_text">Put the phone down. Good night</string>
+    <string name="sleep_nap_notif_title">Time for a nap</string>
+    <string name="sleep_nap_notif_text">Take a short break to recharge</string>
+
+    <!-- Main screen -->
+    <string name="sleep_kind_night">Night sleep</string>
+    <string name="sleep_kind_nap">Nap</string>
+    <string name="sleep_start_night">Sleep</string>
+    <string name="sleep_start_nap">Nap</string>
+    <string name="sleep_wake">Wake up</string>
+    <string name="sleep_sleeping_since">Asleep since %1$s</string>
+    <string name="sleep_napping_since">Napping since %1$s</string>
+    <string name="sleep_last_night">Last night</string>
+    <string name="sleep_last_nap">Last nap</string>
+    <string name="sleep_goal_title">Sleep goal</string>
+    <string name="sleep_recent7">Last 7 days</string>
+    <string name="sleep_stats_entry">Stats</string>
+    <string name="sleep_settings_entry">Settings</string>
+    <string name="sleep_add_manual">Add record</string>
+    <string name="sleep_nap_enabled">Enable nap tracking</string>
+    <string name="sleep_night_goal">Night sleep goal</string>
+    <string name="sleep_goal_mode_duration">Duration</string>
+    <string name="sleep_goal_mode_bedwake">Bed / Wake</string>
+    <string name="sleep_goal_equals">= %1$s</string>
+    <string name="sleep_bed_time">Bedtime</string>
+    <string name="sleep_wake_time">Wake time</string>
+    <string name="sleep_nap_goal">Nap goal</string>
+    <string name="sleep_nap_goal_mode_bedwake">Start / End</string>
+    <string name="sleep_nap_start_time">Nap start time</string>
+    <string name="sleep_nap_end_time">Nap end time</string>
+    <string name="sleep_nap_reminder_enabled">Nap reminder</string>
+    <string name="sleep_nap_reminder_time">Nap reminder time</string>
+    <string name="sleep_bed_reminder_enabled">Bedtime reminder</string>
+    <string name="sleep_summary_reached">Goal reached</string>
+    <string name="sleep_summary_short">%1$s short of goal</string>
+    <string name="sleep_wake_before_sleep">Wake time cannot be earlier than sleep time</string>
+    <string name="sleep_zero_invalid">Sleep duration must be greater than 0 minutes</string>
+    <string name="sleep_ongoing_night">Night sleep in progress</string>
+    <string name="sleep_history_title">History</string>
+    <string name="sleep_note_hint">Note (optional)</string>
+    <string name="sleep_no_records">No sleep records yet</string>
+
+    <!-- Edit dialog -->
+    <string name="sleep_edit_title">Sleep record</string>
+    <string name="sleep_field_sleep_at">Sleep time</string>
+    <string name="sleep_field_wake_at">Wake time</string>
+    <string name="sleep_field_minutes">Duration (minutes)</string>
+    <string name="sleep_wheel_hour">h</string>
+    <string name="sleep_wheel_minute">m</string>
+    <string name="sleep_delete_confirm">Delete this sleep record?</string>
+
+    <!-- Stats -->
+    <string name="sleep_stats_title">Sleep stats</string>
+    <string name="sleep_stats_avg_night">Avg night</string>
+    <string name="sleep_stats_avg_nap">Avg nap</string>
+    <string name="sleep_stats_night_goal_rate">Night hit rate</string>
+    <string name="sleep_stats_nap_goal_rate">Nap hit rate</string>
+    <string name="sleep_stats_distribution">Night / nap split</string>
+    <string name="sleep_chart_trend">Duration trend</string>
+    <string name="sleep_period_day">Day</string>
+    <string name="sleep_period_week">Week</string>
+    <string name="sleep_period_month">Month</string>
+    <string name="sleep_period_year">Year</string>
+</resources>

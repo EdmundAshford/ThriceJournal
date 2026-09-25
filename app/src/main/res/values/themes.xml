@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+      启动主题（无 ActionBar）。
+      MainActivity 继承 AppCompatActivity（应用内语言切换 setApplicationLocales 要求），
+      因此主题父级必须是 Theme.AppCompat 系；界面实际配色全部由 Compose SanxingTheme 接管。
+    -->
+    <style name="Theme.Sanxing" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+</resources>

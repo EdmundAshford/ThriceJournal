@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- AI chat module -->
+    <string name="nav_ai">AI</string>
+    <string name="ai_title">AI</string>
+    <string name="ai_perms_cd">Data permissions</string>
+    <string name="ai_provider_cd">Provider settings</string>
+    <string name="ai_input_hint">Type a message…</string>
+    <string name="ai_send_cd">Send</string>
+    <string name="ai_send_failed_generic">Failed to send. Please try again later.</string>
+    <string name="ai_reply_empty">(No content in the reply)</string>
+
+    <!-- Empty conversation guidance -->
+    <string name="ai_empty_greeting">Hi, I\'m the Sanxing assistant</string>
+    <string name="ai_empty_hint">I can help you view and manage your schedule, tasks, bills and focus data. Try asking:</string>
+    <string name="ai_example_1">Summarize my schedule for today</string>
+    <string name="ai_example_2">How much did I spend on bills this week?</string>
+    <string name="ai_example_3">Create a task for homework due tomorrow</string>
+    <string name="ai_example_4">How long did I focus over the past week?</string>
+
+    <!-- Conversation management / per-message actions -->
+    <string name="ai_conversations_cd">Conversation list</string>
+    <string name="ai_conversations">Conversations</string>
+    <string name="ai_new_chat">New chat</string>
+    <string name="ai_start_new_chat">Start a new chat</string>
+    <string name="ai_no_conversations_hint">No conversations yet. Tap + above or try an example below.</string>
+    <string name="ai_conversation_actions_cd">Conversation actions</string>
+    <string name="ai_default_conversation_title">New chat</string>
+    <string name="ai_rename">Rename</string>
+    <string name="ai_rename_title">Rename conversation</string>
+    <string name="ai_delete_conversation">Delete conversation</string>
+    <string name="ai_delete_conversation_confirm">Delete this conversation and all of its messages? This cannot be undone.</string>
+    <string name="ai_message_copy">Copy</string>
+    <string name="ai_message_copied">Copied</string>
+    <string name="ai_message_edit">Edit</string>
+    <string name="ai_message_edit_title">Edit message</string>
+    <string name="ai_message_delete">Delete</string>
+
+    <!-- Relative timestamps in conversation list -->
+    <string name="ai_time_just_now">Just now</string>
+    <string name="ai_time_minutes_ago">%1$d min ago</string>
+    <string name="ai_time_hours_ago">%1$d h ago</string>
+    <string name="ai_time_yesterday">Yesterday</string>
+    <string name="ai_time_date_pattern">MMM d</string>
+    <string name="ai_time_year_pattern">MMM d, yyyy</string>
+
+    <!-- Provider configuration dialog -->
+    <string name="ai_dialog_provider_title">AI Provider Settings</string>
+    <string name="ai_close_cd">Close</string>
+    <string name="ai_field_provider">Provider</string>
+    <string name="ai_provider_custom">Custom</string>
+    <string name="ai_provider_custom_hint">Enter a name, API base URL and model for a custom provider</string>
+    <string name="ai_field_display_name">Display name</string>
+    <string name="ai_field_base_url">API base URL</string>
+    <string name="ai_field_protocol">Protocol</string>
+    <string name="ai_protocol_openai">OpenAI compatible</string>
+    <string name="ai_protocol_claude">Claude</string>
+    <string name="ai_field_model">Model</string>
+    <string name="ai_model_hint_doubao">Ark uses an endpoint ID instead of a model name. Enter the endpoint ID you created in the Ark console (e.g. ep-xxxxxxxx).</string>
+    <string name="ai_field_api_key">API Key</string>
+    <string name="ai_api_key_saved_hint">Saved (leave blank to keep)</string>
+    <string name="ai_api_key_will_clear">Will be cleared after saving</string>
+    <string name="ai_clear_key">Clear key</string>
+    <string name="ai_show_key">Show key</string>
+    <string name="ai_hide_key">Hide key</string>
+    <string name="ai_test_connection">Test connection</string>
+    <string name="ai_test_running">Testing connection…</string>
+    <string name="ai_test_ok">Connection successful</string>
+    <string name="ai_test_failed">Connection failed: %1$s</string>
+    <string name="ai_fetch_models">Fetch available models</string>
+    <string name="ai_fetch_models_running">Fetching model list…</string>
+    <string name="ai_fetch_models_success">Fetched %1$d available models. Pick one in the popup.</string>
+    <string name="ai_fetch_models_failed">Failed to fetch models: %1$s</string>
+    <string name="ai_fetch_models_empty">No models returned</string>
+    <string name="ai_pick_model">Select model</string>
+    <string name="ai_saved_toast">Saved</string>
+    <string name="ai_validate_base_url">Please enter the API base URL</string>
+    <string name="ai_validate_model">Please enter the model name</string>
+    <string name="ai_validate_display_name">Please enter a display name</string>
+    <string name="ai_validate_api_key">Please enter the API key first</string>
+
+    <!-- Multiple profiles -->
+    <string name="ai_profiles_title">My AI Configurations</string>
+    <string name="ai_profile_new">New configuration</string>
+    <string name="ai_profile_edit">Edit configuration</string>
+    <string name="ai_profile_empty">No saved configuration yet. Tap the button below to add one.</string>
+    <string name="ai_profile_model_unset">No model set</string>
+    <string name="ai_profile_edit_cd">Edit this configuration</string>
+    <string name="ai_profile_delete_cd">Delete this configuration</string>
+    <string name="ai_profile_delete_title">Delete configuration</string>
+    <string name="ai_profile_delete_confirm">Delete configuration \"%1$s\"? This cannot be undone.</string>
+    <string name="ai_back_cd">Back</string>
+    <string name="ai_model_switch_cd">Switch model / configuration</string>
+    <string name="ai_voice_input_cd">Voice input</string>
+    <string name="ai_voice_no_recognizer">No system speech recognition service found. Please install or enable one and try again.</string>
+    <string name="ai_voice_hint">Speak now…</string>
+    <string name="ai_no_active_profile_hint">AI is not configured yet. Tap the settings button to add a configuration.</string>
+
+    <!-- Data permissions dialog -->
+    <string name="ai_dialog_perm_title">AI Data Permissions</string>
+    <string name="ai_perm_intro">AI can only access data you enable here. Changes are reported in the conversation without asking for confirmation each time.</string>
+    <string name="ai_perm_read">Read</string>
+    <string name="ai_perm_write">Write</string>
+    <string name="ai_perm_all_on">Enable all</string>
+    <string name="ai_perm_all_off">Disable all</string>
+    <string name="ai_domain_courses">Courses</string>
+    <string name="ai_domain_tasks">Tasks</string>
+    <string name="ai_domain_bills">Bills</string>
+    <string name="ai_domain_focus">Focus</string>
+    <string name="ai_domain_sleep">Sleep</string>
+    <string name="ai_domain_notes">Notes</string>
+    <string name="ai_domain_settings">Settings</string>
+
+    <!-- AI personas (system prompts) -->
+    <string name="ai_persona_cd">Choose AI persona</string>
+    <string name="ai_persona_chip_prefix">Persona: %1$s</string>
+    <string name="ai_persona_title">Assistant personas</string>
+    <string name="ai_persona_hint">A persona is the system prompt sent to the model, defining the assistant\'s identity and reply style. The built-in default cannot be edited or deleted; you can create your own prompts and switch anytime.</string>
+    <string name="ai_persona_new">New prompt</string>
+    <string name="ai_persona_edit">Edit prompt</string>
+    <string name="ai_persona_builtin_badge">Default</string>
+    <string name="ai_persona_view_cd">View prompt content</string>
+    <string name="ai_persona_view_title">%1$s · preview</string>
+    <string name="ai_persona_edit_cd">Edit persona</string>
+    <string name="ai_persona_delete_cd">Delete persona</string>
+    <string name="ai_persona_delete_title">Delete persona</string>
+    <string name="ai_persona_delete_confirm">Delete persona \"%1$s\"? This cannot be undone.</string>
+    <string name="ai_persona_name_label">Name</string>
+    <string name="ai_persona_name_hint">Short and recognizable, e.g. English tutor</string>
+    <string name="ai_persona_content_label">Prompt content</string>
+    <string name="ai_persona_content_hint">The current time and granted data permissions are appended automatically; no need to describe them here.</string>
+</resources>

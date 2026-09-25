@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="250dp"
+    android:height="180dp"
+    android:viewportWidth="250"
+    android:viewportHeight="180">
+    <path
+        android:fillColor="#F4F8FC"
+        android:pathData="M0,0h250v180h-250z" />
+    <path
+        android:strokeColor="#33506B"
+        android:strokeWidth="2"
+        android:pathData="M1,1h248v178h-248z" />
+    <!-- 标题 -->
+    <path
+        android:fillColor="#2E6DA4"
+        android:pathData="M16,18h56v9h-56z" />
+    <!-- 星期栏 -->
+    <path
+        android:fillColor="#5C7285"
+        android:pathData="M16,36h180v5h-180z" />
+    <!-- 7 列迷你网格：今天列（第 4 列）高亮 -->
+    <path
+        android:fillColor="#2E6DA4"
+        android:fillAlpha="0.12"
+        android:pathData="M130,46h30v110h-30z" />
+    <!-- 周一：两个色块 -->
+    <path android:fillColor="#1E88E5" android:pathData="M20,50h22v14h-22z" />
+    <path android:fillColor="#FB8C00" android:pathData="M20,66h22v14h-22z" />
+    <!-- 周二 -->
+    <path android:fillColor="#43A047" android:pathData="M55,60h22v14h-22z" />
+    <!-- 周三 -->
+    <path android:fillColor="#8E24AA" android:pathData="M95,50h22v14h-22z" />
+    <path android:fillColor="#E53935" android:pathData="M95,66h22v14h-22z" />
+    <!-- 周四（今天） -->
+    <path android:fillColor="#00ACC1" android:pathData="M134,56h22v14h-22z" />
+    <!-- 周五 -->
+    <path android:fillColor="#FDD835" android:pathData="M170,50h22v14h-22z" />
+    <!-- 周六/周日空 -->
+</vector>

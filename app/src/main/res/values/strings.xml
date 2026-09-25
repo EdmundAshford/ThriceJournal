@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">叁省手账</string>
+
+    <!-- 通用按钮 -->
+    <string name="common_close">关闭</string>
+    <string name="common_new">新建</string>
+    <string name="common_cancel">取消</string>
+    <string name="common_save">保存</string>
+    <string name="common_delete">删除</string>
+    <string name="common_confirm">确定</string>
+    <string name="common_back">返回</string>
+
+    <!-- 底部导航 -->
+    <string name="nav_schedule">日程</string>
+    <string name="nav_bills">账单</string>
+    <string name="nav_tasks">任务</string>
+    <string name="nav_timetable">课表</string>
+    <string name="nav_settings">设置</string>
+    <string name="settings_nav_tabs">底部导航</string>
+    <string name="nav_tabs_hint">选择底栏显示的界面并调整顺序；底栏可左右滑动，「设置」始终固定在末尾。至少保留一个界面。</string>
+    <string name="cd_move_up">上移</string>
+    <string name="cd_move_down">下移</string>
+
+    <!-- 通用 -->
+    <string name="action_confirm">确定</string>
+    <string name="action_cancel">取消</string>
+    <string name="action_save">保存</string>
+    <string name="action_delete">删除</string>
+    <string name="action_edit">编辑</string>
+    <string name="action_close">关闭</string>
+    <string name="action_next">下一步</string>
+    <string name="action_prev">上一步</string>
+    <string name="date_pick">选择</string>
+    <string name="empty_dash">—</string>
+
+    <!-- 课表页 -->
+    <string name="week_format">第 %1$d 周</string>
+    <string name="week_today">今天</string>
+    <string name="no_term">暂无学期，请先在设置中配置或导入数据</string>
+    <string name="import_entry">导入</string>
+    <string name="other_courses_title">其他课程 (%1$d)</string>
+    <string name="other_courses_expand">展开</string>
+    <string name="other_courses_collapse">收起</string>
+    <string name="other_course_badge">其他课程</string>
+    <string name="grid_course_badge">网格课程</string>
+    <string name="menu_recolor">改色</string>
+    <string name="delete_course_title">删除课程</string>
+    <string name="delete_course_message">确定删除「%1$s」？仅删除这一条课程。</string>
+
+    <!-- 课程详情弹窗 -->
+    <string name="detail_kind">课程类别</string>
+    <string name="detail_teacher">教师</string>
+    <string name="detail_teacher_segments">教师分段</string>
+    <string name="detail_location">地点 / 场地变更链</string>
+    <string name="detail_campus">分区</string>
+    <string name="detail_credit">学分</string>
+    <string name="detail_assessment">考核方式</string>
+    <string name="detail_class_group">教学班</string>
+    <string name="detail_class_members">教学班组成</string>
+    <string name="detail_weeks">周次（展开）</string>
+    <string name="detail_weeks_raw">周次（原始）</string>
+    <string name="detail_weekly_hours">周学时</string>
+    <string name="detail_total_hours">总学时</string>
+    <string name="detail_hours_breakdown">课程学时组成</string>
+    <string name="detail_remark">备注</string>
+    <string name="detail_note">备注</string>
+    <string name="detail_section_time">节次与时间</string>
+    <string name="detail_created">创建时间</string>
+    <string name="detail_updated">更新时间</string>
+    <string name="detail_category">课程性质</string>
+    <string name="detail_override">例外（调课/停课/补课）</string>
+    <string name="detail_set_reminder">设提醒</string>
+    <string name="section_time_format">第%1$d-%2$d节 %3$s-%4$s</string>
+
+    <!-- 日程页 -->
+    <string name="schedule_title">日程</string>
+    <string name="today_courses">今日课程</string>
+    <string name="next_course">下一节课</string>
+    <string name="next_course_in">%1$s 后上课 · %2$s</string>
+    <string name="duration_minutes">%1$d 分钟</string>
+    <string name="duration_hours">%1$d 小时</string>
+    <string name="duration_hours_minutes">%1$d 小时 %2$d 分钟</string>
+    <string name="today_finished">今日课程已结束</string>
+    <string name="no_courses_today">今天没有课</string>
+
+    <!-- 设置页 -->
+    <string name="settings_title">设置</string>
+    <string name="settings_appearance">外观</string>
+    <string name="theme_color_label">主题</string>
+    <string name="theme_blue">蓝白</string>
+    <string name="theme_pink">樱花粉</string>
+    <string name="theme_mono">极简黑</string>
+    <string name="theme_mint">薄荷绿</string>
+    <string name="theme_grape">葡萄紫</string>
+    <string name="theme_sunset">日落橙</string>
+    <string name="theme_teal">青瓷</string>
+    <string name="theme_crimson">中国红</string>
+    <string name="theme_indigo">靛青</string>
+    <string name="theme_mocha">摩卡棕</string>
+    <string name="theme_custom">自定义</string>
+    <string name="theme_custom_rgb">自定义颜色 %1$s</string>
+    <string name="rgb_r_label">R 红</string>
+    <string name="rgb_g_label">G 绿</string>
+    <string name="rgb_b_label">B 蓝</string>
+    <string name="bg_wallpaper_hint">导入图片作为全局背景，可分别调节图片浓度与界面透明度。</string>
+    <string name="bg_import">导入背景图片</string>
+    <string name="bg_change">更换背景图片</string>
+    <string name="bg_remove">移除背景图</string>
+    <string name="bg_image_alpha">背景图片浓度：%1$d%%</string>
+    <string name="bg_ui_alpha">主体界面浓度：%1$d%%（数值越小，背景透出越多）</string>
+    <string name="bg_import_failed">图片导入失败</string>
+
+    <string name="course_reminder_enabled">启用课程提醒</string>
+    <string name="course_reminder_enabled_desc">关闭后将不再发送课程提醒通知</string>
+    <string name="reminder_slider_hint">%1$d 分钟（拖到 1 表示临上课前 1 分钟）</string>
+    <string name="notif_sound_label">通知铃声</string>
+    <string name="notif_sound_desc">开启后提醒会响铃（高优先级横幅通知）</string>
+    <string name="notif_vibrate_label">通知振动</string>
+    <string name="notif_vibrate_desc">开启后收到提醒时手机振动</string>
+
+    <!-- 节次滑块 -->
+    <string name="section_slider_hint">点击每节的时间卡片，用数字滚轮精确调整上课与下课时间（精确到分钟）。</string>
+    <string name="section_class_time">上课时间</string>
+    <string name="section_class_end">下课时间</string>
+    <string name="section_edit_title">编辑第 %1$d 节时间</string>
+    <string name="section_time_order_hint">下课时间须晚于上课时间</string>
+
+    <!-- 多方案 -->
+    <string name="scheme_hint">多套课表：可以为不同阶段 / 不同日程方案各保存一套课表，随时切换，数据互不影响。</string>
+    <string name="scheme_manage">管理课表方案（当前 %1$d 套）</string>
+    <string name="scheme_manager_title">课表方案管理</string>
+    <string name="scheme_create_hint">新建的空白方案会自动切换为当前方案，之后导入或手动添加课程即可。</string>
+    <string name="scheme_new_blank">＋ 新建空白方案</string>
+    <string name="scheme_default_name">我的课表 %1$d</string>
+    <string name="scheme_active_suffix">  · 使用中</string>
+    <string name="scheme_weeks_range">%1$s 起 · 共 %2$d 周</string>
+    <string name="scheme_switch">切换</string>
+    <string name="scheme_duplicate">复制</string>
+    <string name="scheme_delete">删除</string>
+    <string name="scheme_delete_title">删除课表方案？</string>
+    <string name="scheme_delete_message">将永久删除「%1$s」及其全部课程、节次时间、考试、作业与提醒，且无法恢复。</string>
+    <string name="scheme_keep_one">至少保留一套课表方案</string>
+
+    <!-- 数据分类 -->
+    <string name="data_hint">可分类导出、备份或删除：课表、任务、账单、专注、睡眠、随身记和设置；也可一次性处理全部数据。</string>
+    <string name="data_delete_hint">删除数据（不可恢复，建议先导出备份）：</string>
+    <string name="data_delete_timetable">删课表</string>
+    <string name="data_delete_bills">删账单</string>
+    <string name="data_delete_tasks">删任务</string>
+    <string name="data_delete_focus">删专注</string>
+    <string name="data_delete_sleep">删睡眠</string>
+    <string name="data_delete_notes">删随身记</string>
+    <string name="data_delete_ai_config">删AI配置</string>
+    <string name="data_delete_all">删全部</string>
+    <!-- 名词型分类名，用于“导出/删除 + 名词”拼接 -->
+    <string name="data_noun_timetable">课表</string>
+    <string name="data_noun_bills">账单</string>
+    <string name="data_noun_tasks">任务</string>
+    <string name="data_noun_focus">专注</string>
+    <string name="data_noun_sleep">睡眠</string>
+    <string name="data_noun_notes">随身记</string>
+    <string name="data_noun_all">全部数据</string>
+    <string name="export_chooser_title">选择要导出的数据</string>
+    <string name="share_chooser_title">选择要分享的数据</string>
+    <string name="cat_timetable_desc">课表数据（学期 / 课程 / 节次 / 考试作业 / 提醒）</string>
+    <string name="cat_bills_desc">账单数据（账单 + 分类标签）</string>
+    <string name="cat_tasks_desc">任务数据（任务 + 类型）</string>
+    <string name="cat_focus_desc">专注数据（专注会话 + 标签）</string>
+    <string name="cat_sleep_desc">睡眠数据（夜睡 / 午休记录）</string>
+    <string name="cat_notes_desc">随身记数据（笔记 + 文件夹）</string>
+    <string name="cat_all_desc">所有数据（课表 + 任务 + 账单 + 专注 + 睡眠 + 随身记）</string>
+    <string name="cat_export_action">导出%1$s</string>
+    <string name="clear_cat_title">删除%1$s？</string>
+    <string name="clear_timetable_detail">（学期、课程、节次时间、考试作业、提醒）</string>
+    <string name="clear_tasks_detail">（任务与任务类型，类型会恢复默认）</string>
+    <string name="clear_bills_detail">（账单与分类，分类会恢复默认）</string>
+    <string name="clear_focus_detail">（专注会话记录与专注标签）</string>
+    <string name="clear_sleep_detail">（夜睡与午休的全部睡眠记录）</string>
+    <string name="clear_notes_detail">（全部笔记、文件夹与标签）</string>
+    <string name="clear_all_detail">（课表、任务、账单、专注、睡眠、随身记全部内容）</string>
+    <string name="clear_cat_message">将永久删除本机的%1$s%2$s，且无法恢复。确定继续吗？</string>
+    <string name="clear_ai_config_title">删除AI配置？</string>
+    <string name="clear_ai_config_message">将永久删除本机保存的 AI 服务商、接口地址、模型名与 API 密钥，且无法恢复。聊天记录不受影响。确定继续吗？</string>
+    <string name="restore_preview_extra">另外包含：任务 %1$d 条，账单 %2$d 条。</string>
+
+    <!-- 关于 -->
+    <string name="about_intro_line1">记录日常、管理时间的小工具：</string>
+    <string name="about_feature_schedule">· 日程：课表智能导入、周课表、调课标注、桌面小组件、课前提醒</string>
+    <string name="about_feature_tasks">· 任务：按日期管理待办，支持重复规则与分次完成</string>
+    <string name="about_feature_bills">· 账单：记账、分类统计与图表分析</string>
+    <string name="about_feature_focus">· 专注：正/倒计时、离开策略与结束通知</string>
+    <string name="about_feature_sleep">· 睡眠：夜睡与午休目标、提醒和达成统计</string>
+    <string name="about_feature_notes">· 随身记：Markdown 笔记、文件夹、单篇字体字号</string>
+    <string name="about_feature_ai">· AI：接入你自己的 AI，按授权读写本机数据</string>
+    <string name="about_feature_personal">· 个性化：主题配色、自定义壁纸、字体与提醒</string>
+    <string name="about_local_only">数据默认仅存本机；AI 仅在你主动使用时与所选服务商通信。无广告。</string>
+    <string name="about_open_source_hint">完全开源免费，欢迎到 GitHub 提交 Issue、PR。</string>
+    <string name="about_star_button">⭐ GitHub 仓库</string>
+    <string name="about_author_suffix">-by EdmundAshford</string>
+    <string name="about_contact_author">联系作者：yunaidaiwumiyan@163.com</string>
+    <string name="settings_reward_author">打赏作者</string>
+    <string name="reward_title">打赏作者</string>
+    <string name="reward_encouragement">你的鼓励，就是作者最大动力</string>
+    <string name="reward_alipay_hint">打开支付宝「扫一扫」，扫描下方收款码（可长按图片保存）</string>
+    <string name="reward_qr_cd">作者支付宝收款码</string>
+    <string name="reward_save_unsupported">当前系统版本不支持一键保存，请截图后在支付宝中扫码</string>
+    <string name="reward_save_success">收款码已保存到相册</string>
+    <string name="reward_save_failed">保存失败，请直接截图扫码</string>
+
+    <!-- 任务页 -->
+    <string name="tasks_title">任务</string>
+    <string name="tasks_calendar">日历</string>
+    <string name="tasks_list">列表</string>
+    <string name="tasks_manage_types_cd">管理类型</string>
+    <string name="tasks_add_cd">添加任务</string>
+    <string name="tasks_empty">暂无任务</string>
+    <string name="task_collapse_all">全部折叠</string>
+    <string name="task_expand_all">全部展开</string>
+    <string name="task_overdue">已过期</string>
+    <string name="task_no_date_section">无日期</string>
+    <string name="task_recent_done">近七天完成的任务</string>
+    <string name="task_section_today">今天 %1$s</string>
+    <string name="task_section_tomorrow">明天 %1$s %2$s</string>
+    <string name="task_section_normal">%1$s %2$s</string>
+    <string name="task_default_type">其他</string>
+    <string name="task_month_prev_cd">上个月</string>
+    <string name="task_month_next_cd">下个月</string>
+    <string name="task_date_fmt_long">M月d日</string>
+    <string name="task_month_year_fmt">yyyy年M月</string>
+    <string name="cd_expand">展开</string>
+    <string name="cd_collapse">折叠</string>
+    <string name="action_add">添加</string>
+    <string name="action_done">完成</string>
+    <string name="task_type_manage_title">管理任务类型</string>
+    <string name="task_type_add_new">添加新类型</string>
+    <string name="task_type_name">类型名称</string>
+    <string name="task_add_title">添加任务</string>
+    <string name="task_edit_title">编辑任务</string>
+    <string name="task_title_required">标题 *</string>
+    <string name="task_description">描述</string>
+    <string name="task_type">类型</string>
+    <string name="task_date">日期</string>
+    <string name="task_no_date">不指定日期</string>
+    <string name="task_pick_date_cd">选择日期</string>
+    <string name="task_clear_date_cd">清除日期</string>
+    <string name="task_set_time">设置时间</string>
+    <string name="task_start_time">开始: %1$s</string>
+    <string name="task_end_time">结束: %1$s</string>
+    <string name="task_reminder_switch">通知提醒</string>
+    <string name="task_reminder_need_date">请先选择日期后再开启提醒</string>
+    <string name="task_reminder_before">提前 %1$d 分钟提醒</string>
+    <string name="notif_task_title">任务提醒：%1$s</string>
+    <string name="notif_task_fallback">任务即将开始</string>
+
+    <!-- 任务重复规则 -->
+    <string name="task_repeat">重复</string>
+    <string name="task_anchor_date">开始日期</string>
+    <string name="repeat_none">不重复</string>
+    <string name="repeat_daily">每天</string>
+    <string name="repeat_legal_workday">法定工作日</string>
+    <string name="repeat_weekly">自选星期</string>
+    <string name="repeat_monthly">每月</string>
+    <string name="repeat_yearly">每年</string>
+    <string name="repeat_interval">间隔天数</string>
+    <string name="repeat_ebbinghaus">艾宾浩斯记忆</string>
+    <string name="repeat_dates">指定日期</string>
+    <string name="repeat_weekdays_label">重复于</string>
+    <string name="repeat_every_n_days">每 %1$d 天一次</string>
+    <string name="repeat_end_label">结束</string>
+    <string name="repeat_end_never">永不</string>
+    <string name="repeat_end_on">于日期</string>
+    <string name="repeat_end_count">共 %1$d 次</string>
+    <string name="repeat_dates_label">发生日期</string>
+    <string name="task_add_occurrence_date">添加日期</string>
+    <string name="task_remove_occurrence_date_cd">移除该日期</string>
+    <string name="repeat_dates_empty">请至少添加一个发生日期</string>
+    <string name="cd_repeat_icon">重复任务</string>
+
+    <!-- 任务标签 -->
+    <string name="task_tag_filter_all">全部</string>
+    <string name="task_tag_new_cd">新建标签</string>
+    <string name="task_tag_create_title">新建标签</string>
+    <string name="task_tag_name_hint">标签名称</string>
+    <string name="task_tag_rename_title">重命名标签</string>
+    <string name="task_tag_rename">重命名</string>
+    <string name="task_tag_delete_confirm">删除标签「%1$s」？该标签会从所有任务中移除，任务本身不会被删除。</string>
+    <string name="task_tag_exists">已存在同名标签</string>
+    <string name="task_tag_add">添加标签</string>
+    <string name="task_tag_section_title">标签</string>
+
+    <!-- 导入：新建学期 -->
+    <string name="import_create_term">新建并导入到新学期</string>
+    <string name="import_term_name_hint">学期名称（如：2026-2027 秋季学期）</string>
+    <string name="import_term_create_confirm">创建并选择</string>
+    <string name="import_smart_hint">智能识别：支持从 Excel / WPS 或各类系统复制的表格（逗号、制表符、分号、空格分隔均可）、带中英文表头的 CSV，以及“课程名 周一 第1-2节 1-16周 教室”这类自由文本；星期、节次、周次（含单周/双周）会自动提取，识别结果可在下一步逐条修正。</string>
+    <string name="import_truncated">…（共 %1$d 行，已截断）</string>
+    <string name="fix_section_hint">%1$s（如 3-4）</string>
+    <string name="fix_weeks_hint">%1$s（如 7-12 / 5-7(单)）</string>
+    <string name="fix_day_hint">%1$s（1-7）</string>
+    <string name="term_active_suffix">（当前）</string>
+    <string name="term_name_spring">春</string>
+    <string name="term_name_autumn">秋</string>
+    <string name="term_name_default_fmt">%1$d-%2$s季课表</string>
+
+    <!-- 日程页补充 -->
+    <string name="schedule_prev_day">‹ 前一天</string>
+    <string name="schedule_next_day">后一天 ›</string>
+    <string name="schedule_pick_date_cd">选择日期</string>
+    <string name="schedule_custom_tasks">自定义任务</string>
+    <string name="schedule_day_courses">当日课程</string>
+
+    <!-- 课表页补充 -->
+    <string name="week_short_format">第%1$d周</string>
+    <string name="filter_all">全部</string>
+    <string name="add_short">新增</string>
+    <string name="sections_range_format">第%1$d-%2$d节</string>
+    <string name="timetable_settings_entry">课表设置</string>
+    <string name="timetable_settings_title">课表设置</string>
+
+    <!-- 账单 -->
+    <string name="bills_stats_title">账单统计</string>
+    <string name="cd_back">返回</string>
+    <string name="stats_by_month">按月</string>
+    <string name="stats_by_year">按年</string>
+    <string name="stats_prev_period_cd">上一周期</string>
+    <string name="stats_next_period_cd">下一周期</string>
+    <string name="stats_year_fmt">%1$d 年</string>
+    <string name="stats_overview">总览</string>
+    <string name="bill_expense">支出</string>
+    <string name="bill_income">收入</string>
+    <string name="bill_balance">结余</string>
+    <string name="stats_daily_avg">日均支出</string>
+    <string name="stats_daily_expense">每日支出</string>
+    <string name="stats_monthly_expense">每月支出</string>
+    <string name="stats_category_share">分类占比</string>
+    <string name="stats_no_records_fmt">本周期没有%1$s记录</string>
+    <string name="stats_expense_share">支出占比</string>
+    <string name="stats_income_share">收入占比</string>
+    <string name="bills_cd_category">分类管理</string>
+    <string name="bills_cd_stats">账单统计</string>
+    <string name="bills_cd_add">记一笔</string>
+    <string name="bills_empty_month">本月还没有账单，点右下角 + 记一笔吧</string>
+    <string name="bill_other_expense">其他支出</string>
+    <string name="bill_other_income">其他收入</string>
+    <string name="bills_month_expense">本月支出</string>
+    <string name="bills_last_7_days">近 7 天</string>
+    <string name="bills_total_fmt">合计: %1$s</string>
+    <string name="date_yesterday">昨天</string>
+    <string name="bills_day_expense_fmt">支出 ¥%1$s</string>
+    <string name="bills_day_income_fmt">收入 ¥%1$s</string>
+    <string name="bill_add_title">记一笔</string>
+    <string name="bill_edit_title">编辑账单</string>
+    <string name="bill_amount">金额</string>
+    <string name="bill_no_category">还没有分类，请先在分类管理里添加</string>
+    <string name="bill_note_optional">备注（可选）</string>
+    <string name="category_manage_title">分类管理</string>
+    <string name="category_add">添加分类</string>
+    <string name="category_edit">编辑分类</string>
+    <string name="category_name">分类名称</string>
+    <string name="category_exists">已存在同名分类</string>
+    <string name="category_delete_cd">删除 %1$s</string>
+
+    <string name="dark_mode_label">深色模式</string>
+    <string name="dark_system">跟随系统</string>
+    <string name="dark_light">强制浅色</string>
+    <string name="dark_dark">强制深色</string>
+    <string name="dynamic_color_label">动态取色</string>
+    <string name="dynamic_color_desc">Android 12+ 取系统壁纸色，默认关闭</string>
+    <string name="background_animation_label">背景动画</string>
+    <string name="background_animation_desc">几何背景缓慢移动；关闭可省电</string>
+    <string name="settings_section_times">节次时间</string>
+    <string name="section_n_label">第 %1$d 节</string>
+    <string name="invalid_time">时间格式应为 HH:mm</string>
+    <string name="save_section_times">保存节次时间</string>
+    <string name="section_times_saved">节次时间已保存</string>
+    <string name="settings_term">学期设置</string>
+    <string name="term_name_label">学期名称</string>
+    <string name="term_start_date_label">开始日期（第 1 周周一）</string>
+    <string name="term_total_weeks_label">总周数</string>
+    <string name="term_saved">学期已保存</string>
+    <string name="term_start_aligned_monday">开学日已自动对齐到当周周一</string>
+    <string name="invalid_weeks">总周数应为 1–30</string>
+    <string name="settings_reminder">提醒</string>
+    <string name="reminder_minutes_label">课前提前提醒</string>
+    <string name="minutes_format">%1$d 分钟</string>
+    <string name="settings_data">数据</string>
+    <string name="backup_label">备份数据</string>
+    <string name="restore_label">恢复数据</string>
+    <string name="settings_about">关于</string>
+
+    <!-- 导入页 -->
+    <string name="import_title">导入课表</string>
+    <string name="import_step1">选择数据</string>
+    <string name="import_step2">预览映射</string>
+    <string name="import_step3">冲突检查</string>
+    <string name="import_step4">完成</string>
+    <string name="import_pick_pdf">选择 PDF 文件</string>
+    <string name="import_paste_text">粘贴文本</string>
+    <string name="import_paste_hint">在此粘贴课表文本（系统导出 / Excel / 手动整理均可）…</string>
+    <string name="import_use_text">使用该文本</string>
+    <string name="import_load_sample">载入内置样例</string>
+    <string name="import_sample_ref_hint">点按下面的 PDF 样例，可查看该格式的细致参考、字段映射规则，以及让 AI 帮忙转换的方法</string>
+    <string name="import_sample_pdf_a">样例 PDF · 格式A（含格式说明）</string>
+    <string name="import_sample_pdf_b">样例 PDF · 格式B（含格式说明）</string>
+    <string name="import_pick_csv">选择 CSV / 文本文件</string>
+    <string name="import_pick_excel">选择 Excel 文件</string>
+    <string name="import_excel_hint">Excel 支持 .xlsx（WPS / Excel 表格）；老式 .xls 请先另存为 .xlsx，或导出 CSV 后导入。</string>
+    <string name="import_raw_preview">原始文本预览</string>
+    <string name="import_pdf_failed">无法读取该 PDF 文件</string>
+    <string name="import_read_failed">无法读取该文件</string>
+    <string name="import_excel_failed">无法读取该 Excel：请确认是 .xlsx 文件（可在 WPS / Excel 中另存为 .xlsx 后重试）。</string>
+    <string name="import_ref_title_fmt">格式 %1$s · 参考说明</string>
+    <string name="import_ref_section_look">一、这种 PDF 长什么样</string>
+    <string name="import_pdf_a_format_desc">表格型课表：整页是一张「星期一～星期日」横向网格，课程直接填在对应星期与节次的格子里；文本里有「周数」「地点」字段，并出现多处「星期X」字样。一格通常包含课程名、任课教师、上课周次（如 1-16周、7-12周）、教室，连堂课会连续占两格。</string>
+    <string name="import_pdf_b_format_desc">分页 / 列表型课表：每个上课时段是一段独立文字块，按「时间段」排列，出现「(1-2节)」这样的节次写法、「场地」字段，以及「===[第 N 页]」分页标记，末尾常有「打印时间」。同一门课可能出现多次（不同星期各一段），星期由它所在的列位置决定。</string>
+    <string name="import_ref_section_mapping">二、字段映射规则（App 如何识别一门课）</string>
+    <string name="import_ref_mapping_body">· 课程名：格子 / 一行中的主要名称（如「高等数学A」）。\n· 任课教师：姓名，通常紧跟课程名（如「张三」「李四老师」）。\n· 上课地点：含楼/室/馆/区的教室名（如「教二楼301」「东区教学楼B203」）。\n· 星期：星期一～星期日 = 1～7，可写成「周一」「星期3」。\n· 节次：按小节编号 1～12，如「1-2节」表示第 1、2 小节连堂；「5-7节」表示跨三个小节。\n· 周次：如「1-16周」=第 1 至 16 周；「7-12,5-7(单)」表示第 7-12 周以及第 5、7 单周；支持单周 / 双周标记。\n· 其他可选：学分、课程类型、班级、分区、备注。\n解析后每个字段都能在下一步预览里逐条手动修正。</string>
+    <string name="import_ref_section_ai">三、让 AI 帮你转换（推荐）</string>
+    <string name="import_ref_ai_body">如果你的课表截图 / PDF 无法直接识别，可以这样做：\n1. 截图导出系统里的课表（或保存它导出的 PDF）；\n2. 把上面的「二、字段映射规则」也截图，两张图一起发给 AI（如豆包、DeepSeek、Kimi 等）；\n3. 让 AI 按映射规则输出：每行一门课、字段用制表符或逗号分隔（含表头：课程名,教师,地点,星期,节次,周次），或直接转成「格式A」文本；\n4. 把 AI 的结果粘贴到本页文本框，或保存为 .csv / .xlsx 后从上方按钮导入。</string>
+    <string name="import_ref_load_sample">载入该 PDF 样例体验</string>
+    <string name="import_ref_close">关闭</string>
+    <string name="import_format_label">格式判定</string>
+    <string name="import_format_a">格式A（表格型）</string>
+    <string name="import_format_b">格式B（分页型）</string>
+    <string name="import_format_csv">CSV</string>
+    <string name="import_format_unknown">未知</string>
+    <string name="import_confidence">置信度 %1$s</string>
+    <string name="import_reason">判定依据：%1$s</string>
+    <string name="import_reparse">按此格式重新解析</string>
+    <string name="import_mapping_label">映射报告（点行可手动修正）</string>
+    <string name="import_mapping_empty">暂无可展示的映射条目：本次未识别出标准课程行，可尝试上方按 A / B / CSV 重新解析</string>
+    <string name="import_tap_to_fix">点按此行手动修正</string>
+    <string name="import_tap_to_add">点按此行手动补录为课程</string>
+    <string name="import_col_name">课名</string>
+    <string name="import_col_day">星期</string>
+    <string name="import_col_section">节次</string>
+    <string name="import_col_weeks">周次</string>
+    <string name="import_col_teacher">教师</string>
+    <string name="import_col_location">地点</string>
+    <string name="import_col_credit">学分</string>
+    <string name="import_unrecognized">未识别</string>
+    <string name="import_manual_fix">手动修正</string>
+    <string name="import_conflict_title">冲突检查</string>
+    <string name="import_no_conflicts">未发现冲突</string>
+    <string name="import_conflict_count">发现 %1$d 处冲突</string>
+    <string name="import_conflict_item">%1$s ↔ %2$s（周%3$s 第%4$d-%5$d节，重叠周次：%6$s）</string>
+    <string name="import_warnings_title">告警</string>
+    <string name="import_ignore_continue">忽略并继续</string>
+    <string name="import_summary">将导入：网格课程 %1$d 条 + 其他课程 %2$d 条</string>
+    <string name="import_select_term">导入到学期</string>
+    <string name="import_confirm">确认导入</string>
+    <string name="import_success">导入完成，共 %1$d 条课程</string>
+    <string name="import_failed">导入失败：%1$s</string>
+    <string name="import_go_timetable">返回课表</string>
+
+    <!-- 编辑页 -->
+    <string name="edit_title_new">新增课程</string>
+    <string name="edit_title_edit">编辑课程</string>
+    <string name="field_name">课名</string>
+    <string name="field_teacher">教师</string>
+    <string name="field_location">地点</string>
+    <string name="field_campus">分区</string>
+    <string name="field_credit">学分</string>
+    <string name="field_category">课程性质</string>
+    <string name="field_kind">类别</string>
+    <string name="kind_grid">网格课程</string>
+    <string name="kind_other">其他课程（不进网格）</string>
+    <string name="field_day">星期</string>
+    <string name="field_section_start">起始节次</string>
+    <string name="field_section_end">结束节次</string>
+    <string name="field_weeks">周次（点选）</string>
+    <string name="weeks_all">全选</string>
+    <string name="weeks_odd">单周</string>
+    <string name="weeks_even">双周</string>
+    <string name="weeks_clear">清空</string>
+    <string name="field_color">颜色</string>
+    <string name="color_custom_section">自定义颜色（RGB 滑块 / Hex 代码）</string>
+    <string name="field_color_custom">自定义 Hex（如 #1E88E5）</string>
+    <string name="field_note">备注</string>
+    <string name="field_class_group">教学班</string>
+    <string name="field_class_members">教学班组成</string>
+    <string name="field_assessment">考核方式</string>
+    <string name="field_remark">备注</string>
+    <string name="field_hours_breakdown">课程学时组成</string>
+    <string name="field_weekly_hours">周学时</string>
+    <string name="field_total_hours">总学时</string>
+    <string name="field_time_slots">时间段（可添加多个）</string>
+    <string name="edit_slot_summary">周%1$s 第%2$d-%3$d节 %4$s</string>
+    <string name="edit_add_slot">添加此时间段</string>
+    <string name="invalid_name">请填写课名</string>
+    <string name="invalid_color">颜色格式应为 #RRGGBB</string>
+    <string name="conflict_found_title">发现冲突</string>
+    <string name="conflict_found_message">与现有课程存在 %1$d 处时间冲突，仍要保存吗？</string>
+    <string name="save_anyway">仍要保存</string>
+    <string name="day_none">无</string>
+    <string name="day_mon">周一</string>
+    <string name="day_tue">周二</string>
+    <string name="day_wed">周三</string>
+    <string name="day_thu">周四</string>
+    <string name="day_fri">周五</string>
+    <string name="day_sat">周六</string>
+    <string name="day_sun">周日</string>
+    <!-- 星期单字母（小组件表头） -->
+    <string name="day_mon_letter">一</string>
+    <string name="day_tue_letter">二</string>
+    <string name="day_wed_letter">三</string>
+    <string name="day_thu_letter">四</string>
+    <string name="day_fri_letter">五</string>
+    <string name="day_sat_letter">六</string>
+    <string name="day_sun_letter">日</string>
+
+    <!-- 阶段 4：提醒 -->
+    <string name="reminder_channel_name">上课提醒</string>
+    <string name="reminder_channel_desc">课前提醒上课时间与地点</string>
+    <string name="task_reminder_channel_name">任务提醒</string>
+    <string name="task_reminder_channel_desc">自定义任务到期前的提醒通知</string>
+    <string name="reminder_notification_title">即将上课：%1$s</string>
+    <string name="reminder_at">地点 %1$s</string>
+    <string name="reminder_dialog_title">提醒设置 · %1$s</string>
+    <string name="reminder_enable_label">启用这门课的提醒</string>
+    <string name="reminder_notif_permission">通知权限</string>
+    <string name="reminder_request_permission">请求权限</string>
+    <string name="reminder_permission_granted">已授权</string>
+    <string name="reminder_status_granted">已授权</string>
+    <string name="reminder_status_denied">未授权（提醒可能无法弹出）</string>
+    <string name="reminder_permission_denied">未授予通知权限，上课提醒不会弹出；可随时在系统设置中开启。</string>
+    <string name="reminder_permission_hint">未授予通知权限：提醒将照常排程但不会弹出，可在系统设置中随时开启。</string>
+
+    <!-- 阶段 4：小组件 -->
+    <string name="widget_today_title">今日课程</string>
+    <string name="widget_today_desc">列出今天的课，点击课程进入应用</string>
+    <string name="widget_today_empty">今天没课</string>
+    <string name="widget_week_title">本周课表</string>
+    <string name="widget_week_desc">本周 7 天迷你课表色块</string>
+    <string name="widget_week_no_term">暂无学期</string>
+    <string name="widget_refresh">刷新</string>
+
+    <!-- 阶段 5：分享长图 -->
+    <string name="share_image">分享长图</string>
+    <string name="share_failed">分享失败，请重试</string>
+    <string name="share_image_chooser">分享课表长图</string>
+
+    <!-- 阶段 5：备份 / 恢复 -->
+    <string name="settings_subtitle">外观 · 提醒 · 数据 · 关于</string>
+    <string name="backup_share">导出并分享</string>
+    <string name="backup_share_chooser">分享备份文件</string>
+    <string name="backup_exported">备份已导出</string>
+    <string name="backup_restored">恢复完成，数据已更新</string>
+    <string name="backup_failed">操作失败，请重试</string>
+    <string name="backup_invalid">备份文件无效</string>
+    <string name="restore_preview_title">恢复预览</string>
+    <string name="restore_preview_message">将导入 %1$d 门课程、%2$d 个学期；当前已有 %3$d 门课程。请选择恢复方式：</string>
+    <string name="restore_overwrite">覆盖（清空现有数据）</string>
+    <string name="restore_merge">合并（跳过重复课程）</string>
+    <string name="clear_all_confirm">全部清空</string>
+    <string name="cleared_all">已清空所有数据</string>
+
+    <!-- 阶段 5：ICS 导出 -->
+    <string name="ics_export_full">导出 ICS（全学期）</string>
+    <string name="ics_export_week">导出本周 ICS</string>
+    <string name="ics_export_hint">ICS 可导入系统日历（时区 Asia/Shanghai）；通过分享面板发送或保存。</string>
+    <string name="ics_share_chooser">导出到日历</string>
+
+    <!-- 课表长图导出 -->
+    <string name="export_app_title">叁省手账</string>
+    <string name="export_generated_fmt">生成于 %1$s</string>
+    <string name="export_other_courses_fmt">其他课程（%1$d）</string>
+
+    <!-- 关于 -->
+    <!-- 阶段3 遗留 key（阶段4-5 改写时误删，2026-09-18 恢复） -->
+    <string name="detail_recolor_title">课程改色</string>
+    <string name="other_courses_empty">暂无其他课程</string>
+    <!-- 全部课程页 -->
+    <string name="all_courses_title">全部课程</string>
+    <string name="all_courses_empty">暂无课程，请先导入或手动新增</string>
+    <string name="all_courses_other">其他课程</string>
+
+    <!-- 应用内语言 / 字体 / 背景图裁剪（R7） -->
+    <string name="settings_language">语言</string>
+    <string name="lang_chinese">中文</string>
+    <string name="lang_english">English</string>
+    <string name="settings_font">字体</string>
+    <string name="font_system">00-叁省吾身</string>
+    <string name="font_numbered_fmt">%1$02d-叁省吾身</string>
+    <string name="font_picker_title">选择字体编号</string>
+    <string name="bg_adjust_position">调整位置（拖动 / 双指缩放）</string>
+    <string name="bg_adjust_title">调整背景图</string>
+    <string name="bg_adjust_hint">四角框内即壁纸最终保留区域；单指拖动移动画面，双指开合缩放</string>
+    <string name="action_reset">重置</string>
+    <string name="section_add">添加小节</string>
+    <string name="section_delete_n">删除第 %1$d 小节</string>
+    <string name="section_count_hint">当前共 %1$d 个小节，可按实际情况增减（相邻小节同课会自动连堂显示）</string>
+
+    <!-- 可读格式导出（CSV / Markdown / JSON / 全部 ZIP） -->
+    <string name="export_readable_section">可读格式导出</string>
+    <string name="export_readable_hint">用于在电脑上查看或打印；仅包含本机数据，AI 配置与密钥（ai_ 前缀设置）不会被导出。</string>
+    <string name="export_tables_csv">导出表格 CSV</string>
+    <string name="export_tables_csv_desc">任务、账单、专注、睡眠四张 UTF-8 表格，Excel / WPS 可直接打开</string>
+    <string name="export_notes_md">导出笔记（Markdown）</string>
+    <string name="export_notes_md_desc">每篇笔记一个 .md 文件，含 YAML 信息与 notes_index.json 索引</string>
+    <string name="export_json_data">导出数据（JSON）</string>
+    <string name="export_json_data_desc">课表（学期 / 课程 / 节次 / 作业 / 考试 / 提醒）与应用设置</string>
+    <string name="export_all_zip">导出全部（ZIP）</string>
+    <string name="export_all_zip_desc">CSV、Markdown、JSON 与 README 说明打包为一个 zip</string>
+    <string name="export_progress">导出中…</string>
+    <string name="export_failed">导出失败，请重试</string>
+    <string name="export_share_chooser">分享导出文件</string>
+
+    <!-- 专注前台服务常驻通知 -->
+    <string name="focus_status_notif_title">专注计时中</string>
+    <string name="focus_status_paused">已暂停</string>
+    <string name="focus_status_channel_name">专注计时状态</string>
+    <string name="focus_status_channel_desc">专注倒计时进行中的常驻静默通知</string>
+
+    <!-- 设置：后台运行与提醒可靠性 -->
+    <string name="bg_group_title">后台运行与提醒可靠性</string>
+    <string name="bg_battery_ignore">后台运行</string>
+    <string name="bg_battery_ignore_desc">加入电池优化白名单，避免到点提醒被系统拦截</string>
+    <string name="bg_granted">已授予</string>
+    <string name="bg_open">去开启</string>
+    <string name="bg_autostart">开机自启动</string>
+    <string name="bg_autostart_desc">允许应用开机后及后台运行；不同品牌手机的设置位置可能不同</string>
+    <string name="bg_exact_alarm">精确闹钟</string>
+    <string name="bg_exact_alarm_desc">允许后上课、任务与睡眠提醒可准时触发</string>
+    <string name="bg_notif_settings">系统通知设置</string>
+    <string name="bg_notif_settings_desc">检查通知渠道、锁屏通知与后台通知权限</string>
+</resources>

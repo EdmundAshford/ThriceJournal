@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- AI 问模块 -->
+    <string name="nav_ai">AI</string>
+    <string name="ai_title">AI</string>
+    <string name="ai_perms_cd">数据权限</string>
+    <string name="ai_provider_cd">服务商设置</string>
+    <string name="ai_input_hint">输入消息…</string>
+    <string name="ai_send_cd">发送</string>
+    <string name="ai_send_failed_generic">发送失败，请稍后再试</string>
+    <string name="ai_reply_empty">（没有收到回复内容）</string>
+
+    <!-- 空会话引导 -->
+    <string name="ai_empty_greeting">你好，我是叁省手账助手</string>
+    <string name="ai_empty_hint">我可以帮你查看和管理日程、任务、账单、专注等数据，先试试下面的问题：</string>
+    <string name="ai_example_1">总结一下我今天的日程</string>
+    <string name="ai_example_2">这周账单花了多少？</string>
+    <string name="ai_example_3">帮我新建一条明天交作业的任务</string>
+    <string name="ai_example_4">我最近一周专注时长有多少？</string>
+
+    <!-- 会话管理 / 单条消息操作 -->
+    <string name="ai_conversations_cd">会话列表</string>
+    <string name="ai_conversations">会话</string>
+    <string name="ai_new_chat">新对话</string>
+    <string name="ai_start_new_chat">开始新对话</string>
+    <string name="ai_no_conversations_hint">还没有对话，点击右上角「+」或下方示例开始吧</string>
+    <string name="ai_conversation_actions_cd">会话操作</string>
+    <string name="ai_default_conversation_title">新对话</string>
+    <string name="ai_rename">重命名</string>
+    <string name="ai_rename_title">重命名对话</string>
+    <string name="ai_delete_conversation">删除对话</string>
+    <string name="ai_delete_conversation_confirm">确定删除该对话及其全部消息？删除后不可恢复。</string>
+    <string name="ai_message_copy">复制</string>
+    <string name="ai_message_copied">已复制</string>
+    <string name="ai_message_edit">修改</string>
+    <string name="ai_message_edit_title">修改消息</string>
+    <string name="ai_message_delete">删除</string>
+
+    <!-- 会话列表相对时间 -->
+    <string name="ai_time_just_now">刚刚</string>
+    <string name="ai_time_minutes_ago">%1$d 分钟前</string>
+    <string name="ai_time_hours_ago">%1$d 小时前</string>
+    <string name="ai_time_yesterday">昨天</string>
+    <string name="ai_time_date_pattern">M月d日</string>
+    <string name="ai_time_year_pattern">yyyy年M月d日</string>
+
+    <!-- 服务商配置弹窗 -->
+    <string name="ai_dialog_provider_title">AI 服务商配置</string>
+    <string name="ai_close_cd">关闭</string>
+    <string name="ai_field_provider">服务商</string>
+    <string name="ai_provider_custom">自定义</string>
+    <string name="ai_provider_custom_hint">自定义服务商需填写名称、接口地址与模型</string>
+    <string name="ai_field_display_name">显示名称</string>
+    <string name="ai_field_base_url">接口地址</string>
+    <string name="ai_field_protocol">协议</string>
+    <string name="ai_protocol_openai">OpenAI 兼容</string>
+    <string name="ai_protocol_claude">Claude</string>
+    <string name="ai_field_model">模型</string>
+    <string name="ai_model_hint_doubao">方舟不使用统一模型名，请填写你在方舟控制台创建的接入点 ID（如 ep-xxxxxxxx）</string>
+    <string name="ai_field_api_key">API Key</string>
+    <string name="ai_api_key_saved_hint">已保存（留空则不修改）</string>
+    <string name="ai_api_key_will_clear">将在保存后清除</string>
+    <string name="ai_clear_key">清除 Key</string>
+    <string name="ai_show_key">显示 Key</string>
+    <string name="ai_hide_key">隐藏 Key</string>
+    <string name="ai_test_connection">测试连接</string>
+    <string name="ai_test_running">正在测试连接…</string>
+    <string name="ai_test_ok">连接成功</string>
+    <string name="ai_test_failed">连接失败：%1$s</string>
+    <string name="ai_fetch_models">获取可用模型</string>
+    <string name="ai_fetch_models_running">正在获取模型列表…</string>
+    <string name="ai_fetch_models_success">已获取 %1$d 个可用模型，请在弹窗中点选</string>
+    <string name="ai_fetch_models_failed">获取模型失败：%1$s</string>
+    <string name="ai_fetch_models_empty">未返回任何模型</string>
+    <string name="ai_pick_model">选择模型</string>
+    <string name="ai_saved_toast">已保存</string>
+    <string name="ai_validate_base_url">请填写接口地址</string>
+    <string name="ai_validate_model">请填写模型名称</string>
+    <string name="ai_validate_display_name">请填写显示名称</string>
+    <string name="ai_validate_api_key">请先填写 API Key</string>
+
+    <!-- 多配置管理 -->
+    <string name="ai_profiles_title">我的 AI 配置</string>
+    <string name="ai_profile_new">新增配置</string>
+    <string name="ai_profile_edit">编辑配置</string>
+    <string name="ai_profile_empty">还没有保存的配置，点下方按钮新增一套</string>
+    <string name="ai_profile_model_unset">未设置模型</string>
+    <string name="ai_profile_edit_cd">编辑此配置</string>
+    <string name="ai_profile_delete_cd">删除此配置</string>
+    <string name="ai_profile_delete_title">删除配置</string>
+    <string name="ai_profile_delete_confirm">确定删除配置「%1$s」？此操作不可恢复。</string>
+    <string name="ai_back_cd">返回</string>
+    <string name="ai_model_switch_cd">切换模型 / 配置</string>
+    <string name="ai_voice_input_cd">语音输入</string>
+    <string name="ai_voice_no_recognizer">未找到系统语音识别服务，请安装或启用语音识别后再试</string>
+    <string name="ai_voice_hint">请说话…</string>
+    <string name="ai_no_active_profile_hint">尚未完成 AI 配置，请点设置按钮添加</string>
+
+    <!-- 数据权限弹窗 -->
+    <string name="ai_dialog_perm_title">AI 数据权限</string>
+    <string name="ai_perm_intro">AI 只能访问已开启的数据；修改操作会在对话中告知结果，不再逐次弹窗确认。</string>
+    <string name="ai_perm_read">读取</string>
+    <string name="ai_perm_write">修改</string>
+    <string name="ai_perm_all_on">全部开启</string>
+    <string name="ai_perm_all_off">全部关闭</string>
+    <string name="ai_domain_courses">课程表</string>
+    <string name="ai_domain_tasks">任务</string>
+    <string name="ai_domain_bills">账单</string>
+    <string name="ai_domain_focus">专注</string>
+    <string name="ai_domain_sleep">睡眠</string>
+    <string name="ai_domain_notes">随身记</string>
+    <string name="ai_domain_settings">设置</string>
+
+    <!-- AI 人设（系统提示词） -->
+    <string name="ai_persona_cd">选择 AI 人设</string>
+    <string name="ai_persona_chip_prefix">人设：%1$s</string>
+    <string name="ai_persona_title">AI 助手人设</string>
+    <string name="ai_persona_hint">人设即发送给大模型的系统提示词，决定助手的身份与回复风格。默认人设不可删改，你也可以新建自己的提示词并随时切换。</string>
+    <string name="ai_persona_new">新建提示词</string>
+    <string name="ai_persona_edit">编辑提示词</string>
+    <string name="ai_persona_builtin_badge">默认</string>
+    <string name="ai_persona_view_cd">查看提示词内容</string>
+    <string name="ai_persona_view_title">%1$s · 内容预览</string>
+    <string name="ai_persona_edit_cd">编辑人设</string>
+    <string name="ai_persona_delete_cd">删除人设</string>
+    <string name="ai_persona_delete_title">删除人设</string>
+    <string name="ai_persona_delete_confirm">确定删除人设「%1$s」？删除后不可恢复。</string>
+    <string name="ai_persona_name_label">名称</string>
+    <string name="ai_persona_name_hint">简短好认，例如：英语老师</string>
+    <string name="ai_persona_content_label">提示词内容</string>
+    <string name="ai_persona_content_hint">发送时会自动在末尾追加当前时间与已授权数据能力，无需重复描述。</string>
+</resources>

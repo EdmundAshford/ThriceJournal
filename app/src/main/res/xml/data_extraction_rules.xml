@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Android 12+ 数据提取规则：云备份（cloud-backup）与换机本地迁移（device-transfer）分开配置。 -->
+<data-extraction-rules>
+    <cloud-backup>
+        <include domain="database" path="sanxing.db" />
+        <include domain="sharedpref" path="." />
+        <include domain="file" path="datastore/" />
+        <!-- AI API Key 不进入云端备份：云备份会离开设备，密钥不得随之外传。 -->
+        <exclude domain="file" path="datastore/ai_secrets.preferences_pb" />
+    </cloud-backup>
+    <device-transfer>
+        <include domain="database" path="sanxing.db" />
+        <include domain="sharedpref" path="." />
+        <include domain="file" path="datastore/" />
+        <!-- 与 cloud-backup 不同，换机本地迁移**保留** AI Key：
+             这是用户本人的旧机 → 新机迁移，留着能免去重填。
+             若你更希望 Key 在任何情况下都不离开设备，取消下面一行的注释即可。
+        <exclude domain="file" path="datastore/ai_secrets.preferences_pb" />
+        -->
+    </device-transfer>
+</data-extraction-rules>
