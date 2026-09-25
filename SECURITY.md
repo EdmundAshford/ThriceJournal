@@ -1,44 +1,42 @@
-# 安全说明 / Security Policy
+# Security Policy / 安全说明
 
-叁省手账（Thrice Journal）是一款**离线优先**的 Android 应用：除用户主动发起的 AI 对话外，
-它不发起任何网络请求，也没有自有服务器。下面说明信任边界与本项目的已知取舍。
+Thrice Journal is an **offline-first** Android app: apart from AI conversations the user explicitly initiates,
+it makes no network requests and runs no servers of its own. This document describes the trust boundaries
+and the deliberate trade-offs of the project.
 
-## 支持版本
+## Supported versions / 支持版本
 
-| 版本 | 是否提供安全修复 |
+| Version | Security fixes |
 |---|---|
-| 当前 main 分支 | 是 |
-| 已发布的 release tag | 仅最新 tag |
+| Current `main` branch | ✅ Yes |
+| Published release tags | Latest tag only / 仅最新 tag |
 
-发现漏洞请通过 [Issue](https://github.com/EdmundAshford/Thrice/issues) 私下联系维护者，
-不要公开披露可利用的细节，给修复留出时间。
+Report vulnerabilities via a **private** channel (e.g. [open an issue](https://github.com/EdmundAshford/ThriceJournal/issues) with minimal public detail, then follow up privately).
+Please do not publicly disclose exploitable details before a fix is available. / 发现漏洞请先私下联系维护者，给修复留出时间。
 
-## 数据与隐私设计
+## Data & privacy design / 数据与隐私设计
 
-- **全部业务数据（课表 / 任务 / 账单 / 专注 / 睡眠 / 笔记 / AI 对话）只存在本机 Room 数据库中**，不上传。
-- **唯一的网络出口是 AI 对话**：请求发往用户在设置里手填的服务商地址，并携带用户自己填的 API Key。
-  不配置 AI 时，应用可以在完全离线状态下使用其余所有功能。
-- 接口地址必须是以 `https://` 开头的合法 URL（`AiUrlValidator` 强制校验），
-  否则不会把 API Key 发往该主机。
-- HTTP 客户端不挂载任何日志拦截器，响应体读取有 8 MB 上限。
-- AI 工具调用**每次执行都重新读取最新的权限矩阵**（不是会话开始时的快照），
-  未授权的工具根本不会下发给模型；工具层不使用任何原始 SQL 拼接，也不接受 AI 传入的文件路径。
+- **All user data (timetable / tasks / bills / focus / sleep / notes / AI chats) stays in a local Room database on the device.** Nothing is uploaded.
+- **The only network egress is the AI chat**: requests go to the provider URL *you* enter in Settings, carrying *your* API key. Without AI configured, every other feature works fully offline.
+- The endpoint must be a valid `https://` URL (enforced by `AiUrlValidator`); the API key is never sent to a host that fails validation.
+- The HTTP client mounts no logging interceptors; response bodies are capped at 8 MB.
+- AI tool calls re-read the latest permission matrix on **every** execution (not a session-start snapshot); unauthorized tools are never advertised to the model. The tool layer uses no raw SQL string concatenation and accepts no file paths from the model.
+- 业务数据只存本机 Room 数据库，不上传；唯一网络出口是用户自带 Key 的 AI 对话。
 
-## 已知取舍（不是漏洞，但你应该知道）
+## Known trade-offs (not vulnerabilities, but you should know) / 已知取舍
 
-1. **API Key 明文存于本机**：使用 DataStore（`ai_secrets.preferences_pb`），未用 Keystore 加密。
-   已通过 `backup_rules` / `data_extraction_rules` 排除在**云备份**之外；
-   但**换机本地迁移（device-transfer）会带走** Key（为了换机免重填）。
-   不接受该取舍的话，取消 `data_extraction_rules.xml` 中对应 `exclude` 行的注释即可。
-2. **不拦截内网地址**：若用户手动把接口地址填成 `https://192.168.x.x`，Key 会发往该主机。
-   这是「用户自带服务端点」设计的必然结果，请只填写你信任的服务商地址。
-3. **自动备份的是 SQLite 主库文件**，不含 WAL 日志，最近未 checkpoint 的写入可能不在备份内。
-   可靠的数据搬家请用应用内导出的 JSON 备份。
-4. **`REQUEST_IGNORE_BATTERY_OPTIMIZATIONS`** 权限用于设置页的「忽略电池优化」入口
-   （国产 ROM 上提醒准时性的必要手段）。上架 Google Play 前请移除该权限与对应入口。
+1. **API keys are stored in plaintext on-device** (DataStore `ai_secrets.preferences_pb`, not Keystore-encrypted).
+   They are excluded from **cloud backup** via `backup_rules` / `data_extraction_rules`,
+   but **device-to-device transfer does carry them over** (so you don't re-enter after switching phones).
+   To reject this trade-off, uncomment the corresponding `<exclude>` line in `data_extraction_rules.xml`.
+2. **Private addresses are not blocked**: if you enter `https://192.168.x.x` as the endpoint, your key goes there.
+   This is inherent to the user-supplied-endpoint design — only configure providers you trust.
+3. **Auto-backup exports the main SQLite file** without the WAL log; the most recent uncheckpointed writes may not be in the backup. For reliable migration use the in-app JSON backup export.
+4. **`REQUEST_IGNORE_BATTERY_OPTIMIZATIONS`** powers the "ignore battery optimization" entry in Settings
+   (needed for reliable reminders on Chinese ROMs). Remove this permission and its entry before publishing to Google Play.
 
-## 报告漏洞时请附带
+## When reporting, please include / 报告时请附带
 
-- 影响版本 / commit
-- 复现步骤（如需设备信息，请说明 Android 版本与 ROM）
-- 实际影响（例如「越权读取未授权数据」「密钥外泄」）
+- Affected version / commit
+- Steps to reproduce (include Android version and ROM if a device is involved)
+- Actual impact (e.g. "unauthorized data read", "key exfiltration")

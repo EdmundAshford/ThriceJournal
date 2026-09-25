@@ -1307,7 +1307,7 @@ private fun backupCatDescRes(category: BackupCategory): Int = when (category) {
 }
 
 /** 开源仓库地址（关于页展示与「Star」按钮共用）。 */
-private const val GITHUB_REPO_URL = "https://github.com/EdmundAshford/Thrice"
+private const val GITHUB_REPO_URL = "https://github.com/EdmundAshford/ThriceJournal"
 
 /** 导出 / 分享类别选择对话框。 */
 @Composable
